@@ -72,7 +72,7 @@
 
 ---
 ##5.删掉Storyboard
-> 接下来之前，我们要把**`MainInterface.storyboard`**给干掉，毕竟代码才是王道（个人观点，不喜勿喷）如果喜欢用**`Storyboard`**的朋友，也有一个Storyboard版本的，后面再补上，废话就不多说了，上教程。
+> 接下来之前，我们要把**`MainInterface.storyboard`**给干掉，毕竟代码才是王道（个人观点，不喜勿喷）如果喜欢用**`Storyboard`**的朋友，也有一个[Storyboard](https://github.com/CainRun/TodayExtensionExample/tree/master/TodayExtension-Storyboard)版本的，后面再补上，废话就不多说了，上教程。
 
 > 找到**`TodayI Extension`**中的**`Info.plist`**文件，看到这小样就在这，先留着先
 
