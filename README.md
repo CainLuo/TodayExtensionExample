@@ -50,25 +50,25 @@
 
 > 首先是主程序里的
 
-![3 | center | 1080x0](./3.png)
+![3 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/3.png)
 
-![4 | center | 1080x0](./4.png)
+![4 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/4.png)
 
-![5 | center | 1080x0](./5.png)
+![5 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/5.png)
 
-![6 | center | 1080x0](./6.png)
+![6 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/6.png)
 
 > 再者呢，就是**`Today Extension`**里的
 
-![7 | center | 1080x0](./7.png)
+![7 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/7.png)
 
-![8 | center | 1080x0](./8.png)
+![8 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/8.png)
 
 > 昨晚这两个操作之后，我们会看到多出来的两个**`证书`**。
 > 
 > PS：<font color=red>**这个证书是收费的， 如果没有去申请，一个账号可以免费测试10个证书，主应用1个，Today Extension插件1个，也就是说一个应用需要两个。**</font>
 
-![12 | center | 1080x0](./12.png)
+![12 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/12.png)
 
 ---
 ##5.删掉Storyboard
@@ -81,15 +81,15 @@
 
 > 手动添加**`NSExtensionPrincipalClass`**字段 并设为**`TodayViewController`**（这个**`Controller`**你可以自己指定，我这里为了方便，就直接拿**`Xcode`**生成的）
 
-![14 | center | 1080x0](./14.png)
+![14 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/14.png)
 
 > 现在我们可以把**`storyboard`**这小样给删掉了
 
-![15 | center | 1080x0](./15.png)
+![15 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/15.png)
 
 > 再运行，你就会看到整个**`Today Extension`**是空的了，只有一个空图标和一个标题。
 
-![16 | center | 360x0](./16.png)
+![16 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/16.png)
 
 ##6.代码实现
 > 主应用中，我们需要设置一下**`NSUserDefault`**
@@ -205,25 +205,25 @@ interface TodayViewController () <NCWidgetProviding>
 
 > <font color=purple>**PS：这里的**`Identifier`**和**`URL Schemes`**是你自己定义的，不能与其他**`Application`**的**`Identifier`**、**`URL Schemes`**相同，否则会造成冲突。**</font>
 
-![ 17 | center | 1080x0](./17.png)
+![ 17 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/17.png)
 
-![18 | center | 1080x0](./18.png)
+![18 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/18.png)
 
 > 然后呢，我们去到主应用的**`AppDelegate.m`**文件中添加方法
 
-![19 | center | 1080x0](./19.png)
+![19 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/19.png)
 
 
 > 最后，我们去到**`TodayViewController`**里补上对应的方法就好了
 
-![20 | center | 1080x0](./20.png)
+![20 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/20.png)
 
-![21 | center | 1080x0](./21.png)
+![21 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/21.png)
 
 
 ---
 ##8.最终效果
-![21 | center | 360x0](./22.png)
+![21 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/22.png)
 
 
 ---
