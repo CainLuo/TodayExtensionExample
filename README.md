@@ -64,7 +64,7 @@
 
 ![8 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/8.png)
 
-> 昨晚这两个操作之后，我们会看到多出来的两个**`证书`**。
+> 做完这两个操作之后，我们会看到多出来的两个**`证书`**。
 > 
 > PS：<font color=red>**这个证书是收费的， 如果没有去申请，一个账号可以免费测试10个证书，主应用1个，Today Extension插件1个，也就是说一个应用需要两个。**</font>
 
