@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A450BD1C1CECBB13005E27E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BD1B1CECBB13005E27E1 /* main.m */; };
+		A450BD1F1CECBB13005E27E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BD1E1CECBB13005E27E1 /* AppDelegate.m */; };
+		A450BD221CECBB13005E27E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BD211CECBB13005E27E1 /* ViewController.m */; };
+		A450BD251CECBB13005E27E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A450BD231CECBB13005E27E1 /* Main.storyboard */; };
+		A450BD271CECBB13005E27E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A450BD261CECBB13005E27E1 /* Assets.xcassets */; };
+		A450BD2A1CECBB13005E27E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A450BD281CECBB13005E27E1 /* LaunchScreen.storyboard */; };
+		A450BD351CECBB13005E27E1 /* TodayExtension_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BD341CECBB13005E27E1 /* TodayExtension_CodeTests.m */; };
+		A450BD401CECBB13005E27E1 /* TodayExtension_CodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BD3F1CECBB13005E27E1 /* TodayExtension_CodeUITests.m */; };
+		A450BDC51CED5FF9005E27E1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A450BDAF1CED4FB2005E27E1 /* NotificationCenter.framework */; };
+		A450BDC91CED5FF9005E27E1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A450BDC81CED5FF9005E27E1 /* TodayViewController.m */; };
+		A450BDD01CED5FF9005E27E1 /* TodayExtensionCode.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A450BDC41CED5FF9005E27E1 /* TodayExtensionCode.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A450BD311CECBB13005E27E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A450BD0F1CECBB13005E27E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A450BD161CECBB13005E27E1;
+			remoteInfo = "TodayExtension-Code";
+		};
+		A450BD3C1CECBB13005E27E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A450BD0F1CECBB13005E27E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A450BD161CECBB13005E27E1;
+			remoteInfo = "TodayExtension-Code";
+		};
+		A450BDCE1CED5FF9005E27E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A450BD0F1CECBB13005E27E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A450BDC31CED5FF9005E27E1;
+			remoteInfo = TodayExtensionCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A450BDBF1CED4FB2005E27E1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A450BDD01CED5FF9005E27E1 /* TodayExtensionCode.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A450BD171CECBB13005E27E1 /* TodayExtension-Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodayExtension-Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450BD1B1CECBB13005E27E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A450BD1D1CECBB13005E27E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A450BD1E1CECBB13005E27E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A450BD201CECBB13005E27E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A450BD211CECBB13005E27E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A450BD241CECBB13005E27E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A450BD261CECBB13005E27E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A450BD291CECBB13005E27E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A450BD2B1CECBB13005E27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A450BD301CECBB13005E27E1 /* TodayExtension-CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TodayExtension-CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450BD341CECBB13005E27E1 /* TodayExtension_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayExtension_CodeTests.m; sourceTree = "<group>"; };
+		A450BD361CECBB13005E27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A450BD3B1CECBB13005E27E1 /* TodayExtension-CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TodayExtension-CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450BD3F1CECBB13005E27E1 /* TodayExtension_CodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayExtension_CodeUITests.m; sourceTree = "<group>"; };
+		A450BD411CECBB13005E27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A450BDAF1CED4FB2005E27E1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A450BDC41CED5FF9005E27E1 /* TodayExtensionCode.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtensionCode.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A450BDC71CED5FF9005E27E1 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		A450BDC81CED5FF9005E27E1 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		A450BDCD1CED5FF9005E27E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A497F54E1CED92BF009CE3B1 /* TodayExtension-Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "TodayExtension-Code.entitlements"; sourceTree = "<group>"; };
+		A497F54F1CED92E9009CE3B1 /* TodayExtensionCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtensionCode.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A450BD141CECBB13005E27E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD2D1CECBB13005E27E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD381CECBB13005E27E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BDC11CED5FF9005E27E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BDC51CED5FF9005E27E1 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A450BD0E1CECBB13005E27E1 = {
+			isa = PBXGroup;
+			children = (
+				A450BD191CECBB13005E27E1 /* TodayExtension-Code */,
+				A450BD331CECBB13005E27E1 /* TodayExtension-CodeTests */,
+				A450BD3E1CECBB13005E27E1 /* TodayExtension-CodeUITests */,
+				A450BDC61CED5FF9005E27E1 /* TodayExtensionCode */,
+				A450BDAE1CED4FB2005E27E1 /* Frameworks */,
+				A450BD181CECBB13005E27E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A450BD181CECBB13005E27E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A450BD171CECBB13005E27E1 /* TodayExtension-Code.app */,
+				A450BD301CECBB13005E27E1 /* TodayExtension-CodeTests.xctest */,
+				A450BD3B1CECBB13005E27E1 /* TodayExtension-CodeUITests.xctest */,
+				A450BDC41CED5FF9005E27E1 /* TodayExtensionCode.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A450BD191CECBB13005E27E1 /* TodayExtension-Code */ = {
+			isa = PBXGroup;
+			children = (
+				A497F54E1CED92BF009CE3B1 /* TodayExtension-Code.entitlements */,
+				A450BD1D1CECBB13005E27E1 /* AppDelegate.h */,
+				A450BD1E1CECBB13005E27E1 /* AppDelegate.m */,
+				A450BD201CECBB13005E27E1 /* ViewController.h */,
+				A450BD211CECBB13005E27E1 /* ViewController.m */,
+				A450BD231CECBB13005E27E1 /* Main.storyboard */,
+				A450BD261CECBB13005E27E1 /* Assets.xcassets */,
+				A450BD281CECBB13005E27E1 /* LaunchScreen.storyboard */,
+				A450BD2B1CECBB13005E27E1 /* Info.plist */,
+				A450BD1A1CECBB13005E27E1 /* Supporting Files */,
+			);
+			path = "TodayExtension-Code";
+			sourceTree = "<group>";
+		};
+		A450BD1A1CECBB13005E27E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A450BD1B1CECBB13005E27E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A450BD331CECBB13005E27E1 /* TodayExtension-CodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A450BD341CECBB13005E27E1 /* TodayExtension_CodeTests.m */,
+				A450BD361CECBB13005E27E1 /* Info.plist */,
+			);
+			path = "TodayExtension-CodeTests";
+			sourceTree = "<group>";
+		};
+		A450BD3E1CECBB13005E27E1 /* TodayExtension-CodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A450BD3F1CECBB13005E27E1 /* TodayExtension_CodeUITests.m */,
+				A450BD411CECBB13005E27E1 /* Info.plist */,
+			);
+			path = "TodayExtension-CodeUITests";
+			sourceTree = "<group>";
+		};
+		A450BDAE1CED4FB2005E27E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A450BDAF1CED4FB2005E27E1 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A450BDC61CED5FF9005E27E1 /* TodayExtensionCode */ = {
+			isa = PBXGroup;
+			children = (
+				A497F54F1CED92E9009CE3B1 /* TodayExtensionCode.entitlements */,
+				A450BDC71CED5FF9005E27E1 /* TodayViewController.h */,
+				A450BDC81CED5FF9005E27E1 /* TodayViewController.m */,
+				A450BDCD1CED5FF9005E27E1 /* Info.plist */,
+			);
+			path = TodayExtensionCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A450BD161CECBB13005E27E1 /* TodayExtension-Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A450BD441CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-Code" */;
+			buildPhases = (
+				A450BD131CECBB13005E27E1 /* Sources */,
+				A450BD141CECBB13005E27E1 /* Frameworks */,
+				A450BD151CECBB13005E27E1 /* Resources */,
+				A450BDBF1CED4FB2005E27E1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A450BDCF1CED5FF9005E27E1 /* PBXTargetDependency */,
+			);
+			name = "TodayExtension-Code";
+			productName = "TodayExtension-Code";
+			productReference = A450BD171CECBB13005E27E1 /* TodayExtension-Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A450BD2F1CECBB13005E27E1 /* TodayExtension-CodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A450BD471CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-CodeTests" */;
+			buildPhases = (
+				A450BD2C1CECBB13005E27E1 /* Sources */,
+				A450BD2D1CECBB13005E27E1 /* Frameworks */,
+				A450BD2E1CECBB13005E27E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A450BD321CECBB13005E27E1 /* PBXTargetDependency */,
+			);
+			name = "TodayExtension-CodeTests";
+			productName = "TodayExtension-CodeTests";
+			productReference = A450BD301CECBB13005E27E1 /* TodayExtension-CodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A450BD3A1CECBB13005E27E1 /* TodayExtension-CodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A450BD4A1CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-CodeUITests" */;
+			buildPhases = (
+				A450BD371CECBB13005E27E1 /* Sources */,
+				A450BD381CECBB13005E27E1 /* Frameworks */,
+				A450BD391CECBB13005E27E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A450BD3D1CECBB13005E27E1 /* PBXTargetDependency */,
+			);
+			name = "TodayExtension-CodeUITests";
+			productName = "TodayExtension-CodeUITests";
+			productReference = A450BD3B1CECBB13005E27E1 /* TodayExtension-CodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A450BDC31CED5FF9005E27E1 /* TodayExtensionCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A450BDD31CED5FF9005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtensionCode" */;
+			buildPhases = (
+				A450BDC01CED5FF9005E27E1 /* Sources */,
+				A450BDC11CED5FF9005E27E1 /* Frameworks */,
+				A450BDC21CED5FF9005E27E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtensionCode;
+			productName = TodayExtensionCode;
+			productReference = A450BDC41CED5FF9005E27E1 /* TodayExtensionCode.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A450BD0F1CECBB13005E27E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A450BD161CECBB13005E27E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A450BD2F1CECBB13005E27E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A450BD161CECBB13005E27E1;
+					};
+					A450BD3A1CECBB13005E27E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A450BD161CECBB13005E27E1;
+					};
+					A450BDC31CED5FF9005E27E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K22U66A47Z;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A450BD121CECBB13005E27E1 /* Build configuration list for PBXProject "TodayExtension-Code" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A450BD0E1CECBB13005E27E1;
+			productRefGroup = A450BD181CECBB13005E27E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A450BD161CECBB13005E27E1 /* TodayExtension-Code */,
+				A450BD2F1CECBB13005E27E1 /* TodayExtension-CodeTests */,
+				A450BD3A1CECBB13005E27E1 /* TodayExtension-CodeUITests */,
+				A450BDC31CED5FF9005E27E1 /* TodayExtensionCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A450BD151CECBB13005E27E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BD2A1CECBB13005E27E1 /* LaunchScreen.storyboard in Resources */,
+				A450BD271CECBB13005E27E1 /* Assets.xcassets in Resources */,
+				A450BD251CECBB13005E27E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD2E1CECBB13005E27E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD391CECBB13005E27E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BDC21CED5FF9005E27E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A450BD131CECBB13005E27E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BD221CECBB13005E27E1 /* ViewController.m in Sources */,
+				A450BD1F1CECBB13005E27E1 /* AppDelegate.m in Sources */,
+				A450BD1C1CECBB13005E27E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD2C1CECBB13005E27E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BD351CECBB13005E27E1 /* TodayExtension_CodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BD371CECBB13005E27E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BD401CECBB13005E27E1 /* TodayExtension_CodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A450BDC01CED5FF9005E27E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450BDC91CED5FF9005E27E1 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A450BD321CECBB13005E27E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A450BD161CECBB13005E27E1 /* TodayExtension-Code */;
+			targetProxy = A450BD311CECBB13005E27E1 /* PBXContainerItemProxy */;
+		};
+		A450BD3D1CECBB13005E27E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A450BD161CECBB13005E27E1 /* TodayExtension-Code */;
+			targetProxy = A450BD3C1CECBB13005E27E1 /* PBXContainerItemProxy */;
+		};
+		A450BDCF1CED5FF9005E27E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A450BDC31CED5FF9005E27E1 /* TodayExtensionCode */;
+			targetProxy = A450BDCE1CED5FF9005E27E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A450BD231CECBB13005E27E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A450BD241CECBB13005E27E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A450BD281CECBB13005E27E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A450BD291CECBB13005E27E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A450BD421CECBB13005E27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A450BD431CECBB13005E27E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A450BD451CECBB13005E27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TodayExtension-Code/TodayExtension-Code.entitlements";
+				INFOPLIST_FILE = "TodayExtension-Code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A450BD461CECBB13005E27E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TodayExtension-Code/TodayExtension-Code.entitlements";
+				INFOPLIST_FILE = "TodayExtension-Code/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A450BD481CECBB13005E27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TodayExtension-CodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayExtension-Code.app/TodayExtension-Code";
+			};
+			name = Debug;
+		};
+		A450BD491CECBB13005E27E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TodayExtension-CodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodayExtension-Code.app/TodayExtension-Code";
+			};
+			name = Release;
+		};
+		A450BD4B1CECBB13005E27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TodayExtension-CodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TodayExtension-Code";
+			};
+			name = Debug;
+		};
+		A450BD4C1CECBB13005E27E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TodayExtension-CodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TodayExtension-Code";
+			};
+			name = Release;
+		};
+		A450BDD11CED5FF9005E27E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionCode/TodayExtensionCode.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TodayExtensionCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-Code.TodayExtensionCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A450BDD21CED5FF9005E27E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtensionCode/TodayExtensionCode.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TodayExtensionCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cain.TodayExtension-Code.TodayExtensionCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A450BD121CECBB13005E27E1 /* Build configuration list for PBXProject "TodayExtension-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A450BD421CECBB13005E27E1 /* Debug */,
+				A450BD431CECBB13005E27E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A450BD441CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A450BD451CECBB13005E27E1 /* Debug */,
+				A450BD461CECBB13005E27E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A450BD471CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-CodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A450BD481CECBB13005E27E1 /* Debug */,
+				A450BD491CECBB13005E27E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A450BD4A1CECBB13005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtension-CodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A450BD4B1CECBB13005E27E1 /* Debug */,
+				A450BD4C1CECBB13005E27E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A450BDD31CED5FF9005E27E1 /* Build configuration list for PBXNativeTarget "TodayExtensionCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A450BDD11CED5FF9005E27E1 /* Debug */,
+				A450BDD21CED5FF9005E27E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A450BD0F1CECBB13005E27E1 /* Project object */;
+}
