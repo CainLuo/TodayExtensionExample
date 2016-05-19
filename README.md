@@ -1,8 +1,6 @@
 # <center>玩转iOS：iOS 8 新特性《Today Extension》</center>
 
 
-[TOC]
-
 ## <center>作者感言</center>
 
 > 这次的**`Today Extension`**预研，让我觉得自己还有很多的不足，因为还有很多东西都没有去仔细的去研究，以后接下来会继续再接再厉。
@@ -22,27 +20,27 @@
 ##2.创建Today Extension
 > 开始创建
 
-![0 | center | 1080x0](./0.png)
+![0 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/0.png)
 
 > 选择**`Today Extension`**
 
-![1 | center | 1080x0](./1.png)
+![1 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/1.png)
 
 > 激活**`Today Extension`**
 
-![2 | center | 1080x0](./2.png)
+![2 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/2.png)
 
 
 ##3.使用Storyboard实现Today Extension
 > 在创建好**`Today Extension`**时，**`Xcode`**会自动创建一个对应的**`MainInterface.storyboard`**文件，并且与**`Today Extension`**的**`Controller`**关联，打开**`MainInterface.storyboard`**, 我们会看到有一个内容为**`Hello World`**的**`UILabel`**，废话少说现在我们来看看运行效果。
 
-![9 | center | 1080x0](./9.png)
+![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
 
 > 选择你需要关联启动的App
 
-![10 | center | 1080x0](./10.png)
+![10 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/10.png)
 
-![11 | center | 360x0](./11.png)
+![11 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/11.png)
 
 > 不要怀疑，就是这么简单的，**`Today Extension`**就这么出来了。
 
