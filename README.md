@@ -76,7 +76,7 @@
 
 > 找到**`TodayI Extension`**中的**`Info.plist`**文件，看到这小样就在这，先留着先
 
-![13 | center | 1080x0](./13.png)
+![13 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/13.png)
 
 
 > 手动添加**`NSExtensionPrincipalClass`**字段 并设为**`TodayViewController`**（这个**`Controller`**你可以自己指定，我这里为了方便，就直接拿**`Xcode`**生成的）
