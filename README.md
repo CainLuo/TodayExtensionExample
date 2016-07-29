@@ -1,7 +1,20 @@
-# <center>玩转iOS：iOS 8 新特性《Today Extension》</center>
+# <p align="center">玩转iOS：iOS 8 新特性《Today Extension》</center>
 
+目录
+- [作者感言](#作者感言)
+- [简介](#简介)
+- [创建Today Extension](#创建Today Extension)
+- [使用Storyboard实现Today Extension](#使用Storyboard实现Today Extension)
+- [打开数据共享服务](#打开数据共享服务)
+- [删掉Storyboard](#删掉Storyboard)
+- [代码实现](#代码实现)
+- [从Today Extension跳转至App](#从Today Extension跳转至App)
+- [最终效果](#最终效果)
+- [注意点](#注意点)
+- [补上几篇文章](#补上几篇文章)
 
-## <center>作者感言</center>
+---
+### 作者感言
 
 > 这次的**`Today Extension`**预研，让我觉得自己还有很多的不足，因为还有很多东西都没有去仔细的去研究，以后接下来会继续再接再厉。
 
@@ -13,12 +26,12 @@
 <p align="right">350116542: 腾讯QQ</p>
 
 ---
-##1.简介
+### 简介
 > **`Today Extension`**是在**`iOS 8`**之后所推出来的重大更新之一，在此之前， 或许有人看过部分**`App`**就已经实现过这些功能，但那种实现方式是并不是系统所提供的，所以在性能方面需要打个问号。
 
 ---
-##2.创建Today Extension
-> 开始创建
+### 创建Today Extension
+> 开始创建Today Extension
 
 ![0 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/0.png)
 
@@ -30,8 +43,10 @@
 
 ![2 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/2.png)
 
+---
 
-##3.使用Storyboard实现Today Extension
+
+### 使用Storyboard实现Today Extension
 > 在创建好**`Today Extension`**时，**`Xcode`**会自动创建一个对应的**`MainInterface.storyboard`**文件，并且与**`Today Extension`**的**`Controller`**关联，打开**`MainInterface.storyboard`**, 我们会看到有一个内容为**`Hello World`**的**`UILabel`**，废话少说现在我们来看看运行效果。
 
 ![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
@@ -45,7 +60,7 @@
 > 不要怀疑，就是这么简单的，**`Today Extension`**就这么出来了。
 
 ---
-##4.打开数据共享服务
+### 打开数据共享服务
 > 不过，骚年郎们别着急，只是展示个**`Hello World`**而已，别高兴得太早，接下来我们讲重头戏，也就是应用**`App`**与**`Today Extension`**的数据交互，在此之前， 我们需要打开两个服务。
 
 > 首先是主程序里的
@@ -65,13 +80,13 @@
 ![8 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/8.png)
 
 > 做完这两个操作之后，我们会看到多出来的两个**`证书`**。
-> 
+>
 > PS：<font color=red>**这个证书是收费的， 如果没有去申请，一个账号可以免费测试10个证书，主应用1个，Today Extension插件1个，也就是说一个应用需要两个。**</font>
 
 ![12 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/12.png)
 
 ---
-##5.删掉Storyboard
+### 删掉Storyboard
 > 接下来之前，我们要把**`MainInterface.storyboard`**给干掉，毕竟代码才是王道（个人观点，不喜勿喷）如果喜欢用**`Storyboard`**的朋友，也有一个[Storyboard](https://github.com/CainRun/TodayExtensionExample/tree/master/TodayExtension-Storyboard)版本的，后面再补上，废话就不多说了，上教程。
 
 > 找到**`TodayI Extension`**中的**`Info.plist`**文件，看到这小样就在这，先留着先
@@ -91,7 +106,7 @@
 
 ![16 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/16.png)
 
-##6.代码实现
+### 代码实现
 > 主应用中，我们需要设置一下**`NSUserDefault`**
 
 ```objectivec
@@ -106,7 +121,7 @@
 
 > 现在我们进入**`TodayViewController`**开始写代码了
 
-```objectivec
+```objective-c
 interface TodayViewController () <NCWidgetProviding>
 
 @property (nonatomic, strong) UIView *contentView;
@@ -199,7 +214,7 @@ interface TodayViewController () <NCWidgetProviding>
 ```
 
 ---
-##7.从Today Extension跳转至App
+### 从Today Extension跳转至App
 
 > 首先，我们需要添加**`Identifier`**，以及**`URL Schemes`**。
 
@@ -220,19 +235,17 @@ interface TodayViewController () <NCWidgetProviding>
 
 ![21 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/21.png)
 
-
 ---
-##8.最终效果
+### 最终效果
 ![21 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/22.png)
 
+---
+### 注意点
+
+**PS：在保证代码正确的前提下，如果遇到**`Today Extension`**无法加载数据，或者其他异常，可以把**`Application`**删掉，插件也删掉，**`Clear`**一下**`Project`**，在运行即可。**
 
 ---
-##9.注意点
-
-<font color=purple>**PS：在保证代码正确的前提下，如果遇到**`Today Extension`**无法加载数据，或者其他异常，可以把**`Application`**删掉，插件也删掉，**`Clear`**一下**`Project`**，在运行即可。**</font>
-
----
-## 10.补上几篇文章
+### 补上几篇文章
 
 [iOS8Extension之Today插件](http://www.jianshu.com/p/ab268a1ae000)
 
