@@ -1,6 +1,6 @@
 # <p align="center">玩转iOS：iOS 8 新特性《Today Extension》</center>
 
-目录
+### 目录
 - [作者感言](#作者感言)
 - [简介](#简介)
 - [创建Today Extension](#创建Today Extension)
@@ -44,8 +44,6 @@
 ![2 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/2.png)
 
 ---
-
-
 ### 使用Storyboard实现Today Extension
 > 在创建好**`Today Extension`**时，**`Xcode`**会自动创建一个对应的**`MainInterface.storyboard`**文件，并且与**`Today Extension`**的**`Controller`**关联，打开**`MainInterface.storyboard`**, 我们会看到有一个内容为**`Hello World`**的**`UILabel`**，废话少说现在我们来看看运行效果。
 
@@ -106,6 +104,7 @@
 
 ![16 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/16.png)
 
+---
 ### 代码实现
 > 主应用中，我们需要设置一下**`NSUserDefault`**
 
@@ -237,7 +236,7 @@ interface TodayViewController () <NCWidgetProviding>
 
 ---
 ### 最终效果
-![21 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/22.png)
+![22 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/22.png)
 
 ---
 ### 注意点
