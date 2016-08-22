@@ -47,13 +47,15 @@
 ### 使用Storyboard实现Today Extension
 > 在创建好**`Today Extension`**时，**`Xcode`**会自动创建一个对应的**`MainInterface.storyboard`**文件，并且与**`Today Extension`**的**`Controller`**关联，打开**`MainInterface.storyboard`**, 我们会看到有一个内容为**`Hello World`**的**`UILabel`**，废话少说现在我们来看看运行效果。
 
-![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
+![3 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/3.png)
 
 > 选择你需要关联启动的App
 
-![10 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/10.png)
+![4 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/4.png)
 
-![11 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/11.png)
+![5 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/5.png)
+
+![6 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/6.png)
 
 > 不要怀疑，就是这么简单的，**`Today Extension`**就这么出来了。
 
@@ -63,19 +65,17 @@
 
 > 首先是主程序里的
 
-![3 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/3.png)
-
-![4 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/4.png)
-
-![5 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/5.png)
-
-![6 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/6.png)
-
-> 再者呢，就是**`Today Extension`**里的
-
 ![7 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/7.png)
 
 ![8 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/8.png)
+
+![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
+
+> 再者呢，就是**`Today Extension`**里的
+
+![10 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/10.png)
+
+![11 | center | 360x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/11.png)
 
 > 做完这两个操作之后，我们会看到多出来的两个**`证书`**。
 >
