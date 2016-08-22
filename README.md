@@ -55,8 +55,6 @@
 
 ![5 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/5.png)
 
-![6 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/6.png)
-
 > 不要怀疑，就是这么简单的，**`Today Extension`**就这么出来了。
 
 ---
@@ -65,13 +63,15 @@
 
 > 首先是主程序里的
 
+![6 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/6.png)
+
 ![7 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/7.png)
 
 ![8 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/8.png)
 
-![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
-
 > 再者呢，就是**`Today Extension`**里的
+
+![9 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/9.png)
 
 ![10 | center | 1080x0](https://github.com/CainRun/TodayExtensionExample/blob/master/images-folder/10.png)
 
